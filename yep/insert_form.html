@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Confeitaria X</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            font-family:'Courier New', Courier, monospace;
+            font-size: larger;
+        }
+        h1 {
+        font-size: 2em;
+        color: #000;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        } 
+        input[type=text], select {
+        width: 100%;
+        font-size: larger;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+
+        input[type=file], select {
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=number], select {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+
+        input[type=date], select {
+        font-size: larger;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        }
+
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+        }
+
+        label {
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            color: rgb(90, 90, 90);
+        }
+
+        input[type=submit] {
+            background-color: rgb(29, 216, 23);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-color: rgb(255, 255, 255);
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+    <h1>Inserir bolo</h1>
+
+    <form method='post' action='insert.php' enctype="multipart/form-data">
+        <label for='descricao'>Descrição:</label><br>
+        <input type='text' name='descricao' value=''><br>
+
+        <label for='file'>Imagem:</label><br>
+        <input type='file' name='file' value=''><br>
+
+        <label for='valor'>Valor:</label><br>
+        <input type='number' name='valor' value=''><br><br>
+
+        <label for='numero_fatias'>Nº Fatias:</label><br>
+        <input type='number' name='numero_fatias' value=''><br><br>
+
+        <label for='data_inclusao'>Data:</label><br>
+        <input type='date' name='data_inclusao' value=''><br><br>
+
+        <label for='categoria'>Categoria:</label><br>
+        <input type='text' name='categoria' value=''><br><br>
+
+        <input type='submit' value='Confirmar' name='submit'>
+        </form>
+
+    </div>
+</body>
+
+</html>

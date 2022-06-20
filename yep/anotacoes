@@ -1,0 +1,61 @@
+Data	Evento Presencial	        Entregas
+06/06	Entrega 01 (3 pontos - 60)	1. CRUD Bolos
+13/06	Entrega 02 (3 pontos - 60)	3. Navegação Cliente
+20/06	Entrega 03 (4 pontos - 80)	2. Gestão de Mensagem e apresentaçao final
+27/06	Prova Final	Trabalho de Recuparação
+		
+		
+Especificações Interface do Confeiteiro 	
+
+1. CRUD de Bolos	OK  2. Gestão de Mensagem	
+1.1 Foto			    2.1 Nome do Cliente	
+1.2 Descrição	        2.2 Telefone 	
+1.3 Valor		        2.3 Num WhatsApp	
+1.4 Num Fatias		    2.4 Mensagem	
+1.5 Data de Inclusão	2.5 Status Mensagem	
+1.6 Categoria		    2.5.1 Repondida e-mail	
+			            2.5.2 Repondida whatsAPP	
+			            2.5.3 Respondida e-mail e whatsApp	
+			            2.5.4 Não respondida	
+			            2.6 Data Recebimento	
+			            2.7 Data Resposta	
+			            2.8 Finalização	
+			            2.8.1 Com venda	
+			            2.8.2 Sem venda	
+		
+
+
+Especificações Interface do Cliente (SITE)
+			
+	3. Navegação Cliente		
+	3.1 Exibir Bolos (pode também ser por categoria)		
+	3.2 Enviar MSG		
+	3.2.1 Nome do Cliente		
+	3.2.2 Telefone 		
+	3.2.3 Num WhatsApp
+	3.2.4 Mensagem - OBS (Um msg se refere a um bolo)		
+	3.2.4.1 O que gostou no bolo		
+	3.2.4.2 O que quer mudar		
+	3.2.4.3 Qual o tema do bolo desejado		
+	3.2.4.4 Descrição do que quer no topo do bolo		
+	3.2.4.5 Observações Gerais		
+	3.2.4.6 Outra Img de Referência		
+
+
+
+
+BANCO DE DADOS - CRUD
+escola
+$servername = "localhost";
+$username = "root@";
+$password = "123456";
+
+casa
+$servername = "localhost";
+$username = "root@";
+$password = "123456";
+
+| ID | FOTO | DESCRIÇÃO | VALOR | NUMERO FATIAS | DATA DE INCLUSÃO | CATEGORIA |
+
+
+

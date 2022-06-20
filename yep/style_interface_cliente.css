@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(255, 233, 215);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:200px;
+    margin-right:200px;
+  }
+    
+  .column {
+    float: left;
+    width: 24%;
+    padding: 5px;
+    max-width: 50%;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  table:hover {
+    border: 1px solid rgb(255, 166, 0);
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid rgb(153, 153, 153);
+  }
+
+  
+  th {
+    text-align: center;
+    padding: 16px;
+  }
+
+
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .edit {
+    background-color: salmon;
+    color: rgb(0, 0, 0);
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+  }
+
+  .edit :hover {
+    background-color: salmon;
+    color: rgb(0, 0, 0);
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+  }
+  

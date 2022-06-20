@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(255, 233, 215);;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+}
+h1 {
+font-size: 2em;
+color: #000;
+letter-spacing: 5px;
+margin-bottom: 20px;
+font-weight: bold;
+} 
+.nome, .email {
+width: 120%;
+font-size: larger;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+
+
+
+input[type=tel], select {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=date], select {
+font-size: larger;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+label {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+}
+
+input[type=submit] {
+    background-color: salmon;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: rgb(255, 255, 255);
+}
+
+img {
+    border:inset;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
